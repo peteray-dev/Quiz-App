@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    height: auto;
+}
+
+body{
+    background-image: linear-gradient(rgba(62, 173, 145, 0.7), rgba(62, 173, 145, 0.7)), url(../images/moroccan-flower.png);
+    width: 100%;
+    /* background-size: cover; */
+    height: auto;
+    
+
+}
+.nav-item{
+    margin-top: 20px;
+    padding-right: 30px;
+    text-align: center;
+}
+.nav-item a:active,
+.nav-item a:visited,
+.nav-item a:focus
+{
+    color: white;
+    
+}
+.nav-item a:hover{
+    background-color: aquamarine;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+}
+.row{
+    margin-top: 40px;
+}
+.spoken{
+    margin: 70px auto 0px;
+}
+.spoken p{
+    font-size: 120%;
+    font-style: italic;
+    text-align: left;
+    width: 80%;
+}
+.spoken h2{
+    font-size: 300%;
+    width: 50%;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 15px black;
+    text-transform: capitalize;
+
+}
+
+/* ------------------- */
+
+
+.wrap-bg{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 70%;
+    height: auto;
+    margin: 0px auto;
+}
+.wrap-login{
+    padding: 30px 20px;
+}
+.log{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom:1px solid darkgreen;
+    margin-bottom: 10px;
+    color:black
+}
+.log-input{
+    margin: 5px 10%;
+}
+.log-email{
+    outline: none;
+    border: none;
+    padding: 15px 0px;
+    /* text-align: center; */
+    background-color: transparent;
+    border-bottom: 1px solid #08a07a;
+    width: 100%;
+}
+.log-input select{
+    outline: none;
+    border: none;
+    padding: 15px 0px;
+    /* text-align: center; */
+    background-color: transparent;
+    border-bottom: 1px solid #08a07a;
+    width: 100%;
+
+}
+#Subject{
+    background-color: transparent;
+}
+
+.email-box{
+    margin-bottom: 2px;
+}
+.signup{
+    text-align: center;
+    color: rgb(1, 5, 1);
+}
+.signup a{
+    color: whitesmoke;
+}
+.signup a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.social{
+    text-align: center;
+}
+
+
+
+/* -------------------------------------- */
+/* Instruction section */
+/* ----------------------------------------- */
+
+.instruct{
+    height: auto;
+    background-color: whitesmoke;
+    margin-top: 1%;
+    padding: 5%;
+}
+.instructList{
+    word-spacing: 1px;
+}
+
+#greet{
+    color: rgb(17, 153, 17);
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Home</title>
+
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./vendor/css/normalize.css">
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+
+
+</head>
+<body>
+    <header id="cover">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center text-uppercase" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active mr-5 " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Instructions
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Examination</a></li>
+                    <li><a class="dropdown-item" href="#">Test</a></li>
+                    
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-5 " href="#">Check Result</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="spoken col-md-6 col-12 ">
+                    <p>
+                        What you need to do is input your username provided by your school and the default password
+                        sent to your mail
+                    </p>
+                    <h2>
+                        Write your test and <span>Qualify</span>
+                    </h2>
+                </div>
+                <div class="col-md-6 col-12 login">
+                    <div class="wrap-bg">
+                        <div class="wrap-login">
+                            <div class="log">
+                                <h2>Log In</h2>
+                            </div>
+                            <form action="#">
+                                <div class="log-input">
+                                    <span></span>
+                                    <input type="text" placeholder="Enter email here..." name="email" class="log-email email-box" id="emailLog">
+                                    <span></span>
+                                    <input type="password" placeholder="Enter password here..." name="email" class="log-email pass-box" id="passLog">
+                                    <span></span>
+                                    <select name="question" id="Subject" >
+                                        <option value="none" >Choose a subject</option>
+                                        <option value="quantitative">Quantitative Aptitude Test</option>
+                                        <option value="verbal">Verbal Aptitude Test</option>
+                                        <option value="tech">Technology</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <div class="signup">
+                                <a href="#"><input type="button" value="Take Test" class="btn btn-primary my-2" id="submit" ></a>
+                                <p class="mb-2">Dont have an account?</p>
+                                <p><a href="#">Register </a>here</p>
+                            </div>
+                            <div class="social">
+                                <p>log in with</p>
+                                <a href="#"><i class="ion-social-googleplus"></i></a>
+                                <a href="#"><i class="ion-social-facebook"></i></a>
+                                <a href="#"><i class="ion-social-instagram-outline"></i></a>
+                                <a href="#"><i class="ion-social-twitter"></i></a>
+                                <a href="#"><i class="ion-social-whatsapp"></i></a>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="main-section">
+        <div class="container instructCont">
+            <div class="row instruct">
+                <div class="col-md-8 instructList">
+                    <h1>Instructions</h1>
+                    <ol>
+                        <li>The test will be administered via the internet and will require the following:
+                            <ul class="pl-5 py-2">
+                                <li>A good internet connection</li>
+                                <li> Pen/Pencils</li>
+                                <li>A computer with functional Webcam. Please ensure your Windows operating system is activated.</li>
+                                <li>A valid ID card e.g. Work ID, International Passport, ID-Card, National ID, or Driver’s License</li>
+                                <li>At least 1 hour 30 minutes without interruption in a quiet environment.</li>
+                            </ul>
+                        </li>
+                        <li>Ensure your network and battery are in good condition before starting the test.</li>
+                        <li>Ensure no materials or books/persons laying/hanging around, phones, other gadget/smart
+                             devices or anything that gives off as malpractice is found within 360degrees scanning of your environment.</li>
+                        <li>Please perform all guided pre-test activities. Ensure there is enough light in the room.</li>
+                        <li>Ensure your environment is quiet, kindly put all devices away, including calculators.</li>
+                        <li>This test is automatically monitored hence any violation will be recorded.</li>
+                        <li>No mobile phones please</li>
+                        <li>Your Username is case sensitive however; your password is case sensitive. click on the “Start Exam” button to commence your test.</li>
+                        <li>DO NOT at any time leave your computer.</li>
+                        <li>For the multiple-choice assessments, it will be stated that you click multiple answers</li>
+                        <li>Please ensure you are using a stable internet connection throughout the duration of the test. In the event of an internet disruption during the test, do not close the test window as this will prematurely end the test without submission of 
+                            your activity and you will be unable to login again. Instead, check your internet source and try to ensure that it is stable.</li>
+                    </ol>
+                </div>
+             
+                <div class="col-md-4 mt-5 mx-auto text-center">
+                                       
+                    <p class="text-danger">Please read the Instruction before proceeding with the exam</p>
+                    <p>The Test is for 5 minutes</p>
+                    <a class="btn btn-secondary btn-lg" href="./resources/files/index2.html" >Start Exam</a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./vendor/js/jquery.js"></script>
+    <script src="./vendor/js/popper.min.js"></script>
+    <script src="./vendor/js/bootstrap.min.js"></script>
+    <script src="./resources/script/script.js"></script>
+</body>
+</html>
