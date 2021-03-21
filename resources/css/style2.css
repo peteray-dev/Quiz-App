@@ -43,15 +43,15 @@ h2{
 #final{
     background-color: #10ac84;
     margin-top: 40px;
-    height: 60vh;
-    text-align: center;
-    padding-top: 120px ;
+    height: auto;
+    padding: 120px 0px ;
     border-radius: 10px;
 }
 
 #finish{
     color: white;
-    font-size: 200%;
+    font-size: 150%;
+    text-align: center;
 }
 #submit{
     margin: auto;

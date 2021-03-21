@@ -1,6 +1,6 @@
 let questions = [
     {question:"what is the 20% of 400", option1: 50, option2: 70, option3: 80, option4: "All of the above", answer:"80", selected:''},
-    {question:"solve this equation: 2x + 24 -5x = 3", option1: 12, option2: 24, option3: 7, option4: "7x", answer:7},
+    // {question:"solve this equation: 2x + 24 -5x = 3", option1: 12, option2: 24, option3: 7, option4: "7x", answer:7},
     // {question:"2x+x-1, find x", option1: "3x+1", option2: "3x-1", option3: "2x", option4: "none of the above", answer:"3x+1"},
     // {question:"what is the formular of a diameter", option1: "2R", option2: "R+R", option3: "d", option4: "r * R", answer:"2R"},
     // {question:"which is not a polygon", option1: "circle", option2: "Rhombus", option3: "Square", option4: "hexagon", answer:"circle"},
@@ -69,7 +69,7 @@ nextBtn.addEventListener("click", function(){
             submitBtn.style.display = "block"
             submitBtn.style.position = "relative"
             submitBtn.style.bottom = '40px'
-            submitPara.style.display = "bsubmitBtn.style.bottom = '40px'lock"
+            submitPara.style.display = "block"
             nextBtn.style.display = "none"
             prevBtn.style.display = "block"
         }
@@ -96,7 +96,7 @@ prevBtn.addEventListener("click", function(){
 submitBtn.addEventListener("click", function(){
     
     wholeQuestionContainer.style.display = "none"
-    finishResult.innerHTML = (score < 40) ? `Your Score is ${score}% <p>😖😖😖 you can do more</p> ` : `Your Score is ${score}% <p> Congratulations</p>`
+    finishResult.innerHTML = (score < 40) ? `Your Score is ${score}% <p>😖😖😖 you can do more</p> ` : `Your Score is ${score}% <p>Congratulations</p>`
     resetbtn.style.display = "block"
     finalBg.style.display = "block"
 
