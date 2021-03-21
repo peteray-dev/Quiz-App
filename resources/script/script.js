@@ -3,7 +3,7 @@ let loginDetails = [
     {username: "Raymond", password: "raymond"}, 
     {username: "Seun", password: "seun"}, 
     {username: "Tope", password: "tope"}, 
-    {username: "Marvelous", password: "marvelous"}
+    {username: "Marvelous", password: "marvelous"},
     {username: "Kolawole", password: "bigbossprog"}
 ]
 
