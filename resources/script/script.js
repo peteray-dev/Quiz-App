@@ -4,6 +4,7 @@ let loginDetails = [
     {username: "Seun", password: "seun"}, 
     {username: "Tope", password: "tope"}, 
     {username: "Marvelous", password: "marvelous"}
+    {username: "Kolawole", password: "bigbossprog"}
 ]
 
 
