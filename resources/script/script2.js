@@ -11,6 +11,8 @@ let questions = [
     {question:"solve 2(x-1)(4x-2)", option1: "2-2x", option2: "2(1-x)", option3: "2x", option4: "4x", answer:"2(1-x)"}
 
 ]
+
+
 let wholeQuestionContainer = document.getElementById("wholeContainer")
 let questionCont = document.getElementById("questionContainer")
 let optionCont = document.getElementById("optionContainer")
